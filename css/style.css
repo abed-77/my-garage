@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+header {
+  background-color: #4a4a4a;
+  }
+
+#headerP {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  padding: 30px 5px;
+  font-family:Roboto;
+  font-size: 50px;
+  
+}
+
+body{
+    background-image: url("../img/background.jpg");
+    background-color: #4a4a4a;
+}
+
+body > main > section {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-row-align: center;
+    grid-gap: 20px;
+    }
+
+#formDiv{
+    align-content: center;
+    background-color: #a3a3a3 ;
+    width: 40%;
+}
+
+#renderDiv{
+    background-color: #a3a3a3;
+    align-content: center;
+    width: 80%;
+}
